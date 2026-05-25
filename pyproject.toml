@@ -1,5 +1,5 @@
 [project]
-name = "chai-streamlit"
+name = "Basic streamlit app"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
