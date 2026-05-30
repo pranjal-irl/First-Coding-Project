@@ -24,10 +24,8 @@ set_bg_image()
 
 
 
-st.title("WHAT'S YOUR CODING LEVEL?")
-st.text("You probably know where you are but have you ever thought in this way?")
+st.title("Just trying different widgets and getting used to it")
 
-st.text("Starting with the basic question")
 phase = st.selectbox("Which phase of life are you in while coding?", ["Choose phase", "School 🙋‍♂️","In Between School and College period 👻", "College 🧑‍🎓", "Doing internship 😋", "Doing a job 🧑‍💻", "Jobless at Home 😭🙏"])
 if phase == "School 🙋‍♂️":
     st.write("Starting at the right time gang!")
@@ -58,3 +56,25 @@ elif time == "5-10 years":
 elif time == "10+ years":
     st.write("A master of work 🫡")
 
+import time
+effect = "typewriter effect!!!!!"
+def stream_text():
+    for char in effect:
+        yield char
+        time.sleep(0.1)
+
+if st.button("Click me for a magic"):
+    st.write_stream(stream_text())
+
+picture = st.camera_input("""Click a photo of yourself and see the magic!
+                   Don't worry, I don't know how to save your picture to my device lol
+                   """)
+if picture is not None :
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.image("Images/whatdoesheevendo.jpg")
+    with col2:
+        st.image(picture)
+    with col3:
+        st.image("Images/folkmeme.jpg")
+    
