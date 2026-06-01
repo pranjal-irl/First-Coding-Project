@@ -1,5 +1,5 @@
 # First Coding Project
-So this is my very first coding project. It's made with streamlit using python language. It's just a practice project.
+So this is my very first coding project. It's made with streamlit using python language. It's just a practice project. It is a multipage project made using conditional statements through which you can know about your favourite coding language and you can also know your coding level along with some sarcasm.
 
 ---
 
