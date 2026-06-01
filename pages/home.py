@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 def set_bg_image():
     st.markdown(
         f"""
@@ -24,7 +23,8 @@ set_bg_image()
 
 st.title("Hello!")
 st.markdown(" ")
-st.text("I am learning streamlit which is a python framework")
+st.text("""I am learning streamlit which is a python framework
+    This is my very first project""")
 st.subheader("""These are small projects/pages I made while learning different syntax
 Just click on one of these or you can also access all the pages from the sidebar at the top left""")
 

@@ -1,7 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
 def set_bg_image():
     st.markdown(
         f"""
@@ -60,7 +58,7 @@ elif time == "10+ years":
     st.write("A master of work 🫡")
 
 st.markdown(" ")
-
+import streamlit_extras
 import time
 effect = "typewriter effect!!!!!"
 def stream_text():
@@ -89,7 +87,7 @@ if picture is not None :
 
     st.markdown(" ")
     st.markdown(" ")
-    st.subheader("""Okay so here ends my basic starter project. Now I will move up to the bigger ones!
-    Level up Baby!!""", divider="yellow")
+    st.subheader("""Okay so here ends my basic starter project. Now I will move up to the bigger ones! 
+     Level up Baby!!""", divider="yellow")
 
     st.header(":green-background[THANK YOU FOR VISITING!]")

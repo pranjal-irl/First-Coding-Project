@@ -1,7 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
 def set_bg_image():
     st.markdown(
         f"""
@@ -25,7 +23,7 @@ set_bg_image()
 
 
 st.title("Knowing your favourite programming language")
-st.header("Made with Streamlit")
+
 st.markdown(" ")
 st.text("Welcome to my first interactive app!")
 
