@@ -26,7 +26,7 @@ set_bg_image()
 
 
 st.title("Just trying different widgets and getting used to it")
-
+st.markdown(" ")
 phase = st.selectbox("Which phase of life are you in while coding?", ["Choose phase", "School 🙋‍♂️","In Between School and College period 👻", "College 🧑‍🎓", "Doing internship 😋", "Doing a job 🧑‍💻", "Jobless at Home 😭🙏"])
 if phase == "School 🙋‍♂️":
     st.write("Starting at the right time gang!")
@@ -88,7 +88,8 @@ if picture is not None :
     rain(emoji="🤣", font_size=54, falling_speed=1, animation_length=1)
 
     st.markdown(" ")
-    st.subheader("Okay so here ends my basic starter project. Now I will move up to the bigger ones!" \
-    "Level up Baby!!", divider="yellow")
+    st.markdown(" ")
+    st.subheader("""Okay so here ends my basic starter project. Now I will move up to the bigger ones!
+    Level up Baby!!""", divider="yellow")
 
-    st.header(":blue[THANK YOU FOR VISITING!]")
+    st.header(":green-background[THANK YOU FOR VISITING!]")
