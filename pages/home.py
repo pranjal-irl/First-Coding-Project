@@ -20,15 +20,14 @@ def set_bg_image():
 set_bg_image()
 
 # Rest of your app code goes below
-st.set_page_config(
-    layout="wide"
-)
 
 
 st.title("Hello!")
+st.markdown(" ")
 st.text("I am learning streamlit which is a python framework")
-st.subheader("These are small projects/pages I made while learning different syntax")
-st.subheader("Just click on one of these or you can also access all the pages from the sidebar at the top left")
+st.subheader("""These are small projects/pages I made while learning different syntax
+Just click on one of these or you can also access all the pages from the sidebar at the top left""")
 
+st.markdown(" ")
 st.page_link("pages/project1.py", label="Know your Fav Programming Language", icon="1️⃣")
 st.page_link("pages/project2.py", label="2nd Project", icon="2️⃣")

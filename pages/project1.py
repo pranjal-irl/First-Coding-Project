@@ -21,14 +21,12 @@ def set_bg_image():
 set_bg_image()
 
 # Rest of your app code goes below
-st.set_page_config(
-    layout="wide"
-)
 
 
 
 st.title("Knowing your favourite programming language")
 st.header("Made with Streamlit")
+st.markdown(" ")
 st.text("Welcome to my first interactive app!")
 
 st.subheader("Choose your favourite programming language :")

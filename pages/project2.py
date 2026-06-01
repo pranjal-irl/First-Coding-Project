@@ -21,9 +21,7 @@ def set_bg_image():
 set_bg_image()
 
 # Rest of your app code goes below
-st.set_page_config(
-    layout="wide"
-)
+
 
 
 
@@ -43,7 +41,7 @@ if phase == "Doing a job 🧑‍💻":
 if phase == "Jobless at Home 😭🙏":
     st.write("Keep going! the work will definitely pay off!")
 
-    st.markdown(" ")
+st.markdown(" ")
 
 time = st.radio("How long have you been coding?" , ["0-2 months" , "2-6 months" , "6 months - 1 year" , "1-2 years" , "2-5 years" , "5-10 years" , "10+ years"])
 if time == "0-2 months":
@@ -93,4 +91,4 @@ if picture is not None :
     st.subheader("Okay so here ends my basic starter project. Now I will move up to the bigger ones!" \
     "Level up Baby!!", divider="yellow")
 
-    st.header(":violet[THANK YOU FOR VISITING!]")
+    st.header(":blue[THANK YOU FOR VISITING!]")
