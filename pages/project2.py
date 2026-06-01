@@ -40,6 +40,8 @@ if phase == "Doing a job 🧑‍💻":
 if phase == "Jobless at Home 😭🙏":
     st.write("Keep going! the work will definitely pay off!")
 
+    st.markdown(" ")
+
 time = st.radio("How long have you been coding?" , ["0-2 months" , "2-6 months" , "6 months - 1 year" , "1-2 years" , "2-5 years" , "5-10 years" , "10+ years"])
 if time == "0-2 months":
     st.write("So you are a beginner like me (when I am making this)✌️")
@@ -56,6 +58,8 @@ elif time == "5-10 years":
 elif time == "10+ years":
     st.write("A master of work 🫡")
 
+st.markdown(" ")
+
 import time
 effect = "typewriter effect!!!!!"
 def stream_text():
@@ -65,6 +69,8 @@ def stream_text():
 
 if st.button("Click me for a magic"):
     st.write_stream(stream_text())
+
+st.markdown(" ")
 
 picture = st.camera_input("""Click a photo of yourself and see the magic!
                    Don't worry, I don't know how to save your picture to my device lol
@@ -79,3 +85,5 @@ if picture is not None :
         st.image("Images/folkmeme.jpg")
     from streamlit_extras.let_it_rain import rain
     rain(emoji="🤣", font_size=54, falling_speed=1, animation_length=1)
+
+    st.header("THANK YOU!")

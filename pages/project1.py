@@ -52,3 +52,7 @@ elif language == "Markdown":
 
 if language != "Select a language":  
     st.success("You can call yourself a Coding Brat!")
+
+st.markdown(" ")
+st.text("Next:")
+st.page_link("pages/project2.py", label="2nd Project", icon="2️⃣")
