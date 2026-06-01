@@ -1,10 +1,37 @@
 # First Coding Project
-So this is my first coding project made with streamlit using python language
-this is just a practice project
+So this is my very first coding project. It's made with streamlit using python language. It's just a practice project.
+
 ---
-## Quick Installation
-```git clone https://github.com/pranjal-irl/First-Coding-Project```
-```pip install uv```
-```uv add streamlit```
-```uvx streamlit run Home.py```
+
+
+
+
+
+
+## Quick Start
+```bash
+git clone https://github.com/pranjal-irl/First-Coding-Project
+cd First-Coding-Project
+pip install uv
+uv sync
+uv add streamlit
+uv add streamlit-extras
+```
+
+
+## Run App
+```
+uvx streamlit run Home.py
+```
+
+## Tech Stack
+- Python
+- Streamlit
+- Sreamlit-extras
+
+## License
+
+This project is licensed under the MIT License
+
 ---
+Pranjal:pranjal.quantum@gmail.com
