@@ -1,6 +1,5 @@
 import streamlit as st
 
-import streamlit as st
 
 def set_bg_image():
     st.markdown(
@@ -21,7 +20,9 @@ def set_bg_image():
 set_bg_image()
 
 # Rest of your app code goes below
-
+st.set_page_config(
+    layout="wide"
+)
 
 
 st.title("Hello!")

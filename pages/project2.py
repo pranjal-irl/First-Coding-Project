@@ -21,6 +21,9 @@ def set_bg_image():
 set_bg_image()
 
 # Rest of your app code goes below
+st.set_page_config(
+    layout="wide"
+)
 
 
 
@@ -67,7 +70,7 @@ def stream_text():
         yield char
         time.sleep(0.1)
 
-if st.button("Click me for a magic"):
+if st.button(":rainbow[Click me for a magic]"):
     st.write_stream(stream_text())
 
 st.markdown(" ")
@@ -86,4 +89,8 @@ if picture is not None :
     from streamlit_extras.let_it_rain import rain
     rain(emoji="🤣", font_size=54, falling_speed=1, animation_length=1)
 
-    st.header("THANK YOU!")
+    st.markdown(" ")
+    st.subheader("Okay so here ends my basic starter project. Now I will move up to the bigger ones!" \
+    "Level up Baby!!", divider="yellow")
+
+    st.header(":violet[THANK YOU FOR VISITING!]")
