@@ -29,6 +29,9 @@ uvx streamlit run Home.py
 - Streamlit
 - Sreamlit-extras
 
+## Use of AI
+I asked the AI for the syntax to change the background (5 line code)
+
 ## License
 
 This project is licensed under the MIT License
