@@ -31,7 +31,8 @@ uvx streamlit run Home.py
 - Sreamlit-extras
 
 ## Use of AI
-I asked the AI for the syntax to change the background (5 line code)
+I asked the AI for the syntax to change the background (5 line code).
+I asked chat gpt about some syntax and debugging but did not copy paste anything directly.
 
 ## License
 
