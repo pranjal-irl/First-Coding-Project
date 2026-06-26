@@ -1,4 +1,4 @@
-# First Coding Project
+# Know More About Your Favourite Programming Language
 ![Screenshot](https://raw.githubusercontent.com/pranjal-irl/First-Coding-Project/refs/heads/main/Screenshot%202026-06-01%20at%203.59.48%20PM.png)
 So this is my very first coding project. It's made with streamlit using python language. It's just a practice project. It is a multipage project made using conditional statements through which you can know about your favourite coding language and you can also know your coding level along with some sarcasm.
 
